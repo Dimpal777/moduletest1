@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dimpal Frontend 1 module test</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./international-business.png">
+    <script src="script.js"></script>
+    <script type="text/javascript">
+        function conf() {
+            var con = confirm("Submitted Succesfully");
+        }
+    </script>
+</head>
+
+<body>
+    <div class="header-container" id="header-container">
+        <div class="navbar">
+            <span class="logo">Business Name</span>
+            <nav>
+                <ul id="desk-view">
+                    <li><a class="a" href="#header-container">Home</a></li>
+                    <li><a class="a" href="#about-us">About us</a></li>
+                    <li><a class="a" href="#our-services">Our service</a></li>
+                    <li><a class="a" href="#contact-us">Contact Us</a></li>
+                </ul>
+
+                <ul class="menu-list" id="menuList">
+                    <li><a href="#header-container">Home</a></li>
+                    <li><a href="#about-us">About us</a></li>
+                    <li><a href="#our-services">Our Service</a></li>
+                    <li><a href="#contact-us">Contact Us</a></li>
+                </ul>
+            </nav>
+            <img class="menu-icon" src="menu.png" alt="menu" onclick="togglemenu()">
+        </div>
+        <div class="row">
+            <div class="col-1">
+                <h1>BUSINESS </h1>
+                <h1>LANDING </h1>
+                <h1>PAGE</h1>
+            </div>
+            <div class="col-2">
+                <img src="img 1.png" alt="">
+            </div>
+        </div>
+        <div class="arrow"><a class="arrw" href="#our-services"><img src="png-transparent-rarrow down.png" width="50px"
+                    alt=""></a></div>
+    </div>
+    <div class="about-us" id="about-us">
+        <div class="about-us-img">
+            <img class="abt-img" src="img 2.png" alt="about-us-image">
+        </div>
+        <div class="about-us-content">
+            <h2><u>ABOUT US</u></h2>
+            <br>
+            <br>
+
+            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum porro veniam, velit dolorem neque
+                eveniet omnis unde sunt consequatur mollitia enim, amet nostrum perspiciatis atque, obcaecati ea non in
+                provident modi aperiam totam! Voluptates iste labore ipsa, hic corrupti fugit quaerat vitae facilis iure
+                molestiae dolore alias cum obcaecati, temporibus eum perferendis cumque quam libero autem et modi vel?
+                Expedita eos sunt velit hic aliquid facilis aliquam veritatis vitae repudiandae error accusantium nam
+                perspiciatis ad illum harum ea placeat rerum, cupiditate minus. Assumenda reiciendis minima vitae.
+                Soluta velit ducimus voluptate quasi voluptatibus, porro suscipit vitae laborum, odio repudiandae
+                accusamus. Quae sapiente magni omnis numquam quam quibusdam illum sint rerum aliquid asperiores hic fuga
+                natus voluptatem reiciendis, enim, sed cumque quia expedita voluptate ipsa cum corrupti mollitia earum?
+                Itaque, quisquam? Deserunt nam sed, cupiditate accusamus inventore soluta? Atque modi similique,
+                corporis debitis, exercitationem ipsa ducimus nemo architecto accusamus voluptatum tempora alias?</span>
+        </div>
+    </div>
+
+    <div class="our-services" id="our-services">
+        <h2><u>Our Services</u></h2>
+        <div class="cards-container">
+            <div class="card1 cards">
+                <h3>Service 1</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, et dolore magna aliqua. Ut enim ad minim
+                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                </p>
+            </div>
+            <div class="card2 cards">
+                <h3>Service 2</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, et dolore magna aliqua. Ut enim ad minim
+                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                </p>
+            </div>
+            <div class="card3 cards">
+                <h3>Service 3</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, et dolore magna aliqua. Ut enim ad minim
+                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="contact-us" id="contact-us">
+        <h2> <u>Contact US</h2>
+        <form class="contact-form" enctype="text/plain">
+            <input type="text" name="" id="contact-form-text" placeholder=" First Name" required>
+            <input type="text" name="" id="contact-form-text" placeholder="Last Name" required>
+            <input type="email" name="" id="contact-form-text" placeholder="Email Address" required>
+            <input type="text" name="" id="contact-form-text" placeholder="Reason For Contacting" required>
+            <div class="button">
+                <button id="submit" type="submit" onClick="conf()">submit</button>
+            </div>
+    </div>
+
+</body>
+
+</html>
